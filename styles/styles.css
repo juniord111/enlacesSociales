@@ -16,9 +16,12 @@ body{
 .container{
     background-color:hsl(0, 0%, 12%);
     width: 50vh;
-    height: 82vh;
+    height: 85vh;
     border-radius: 5%;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .information{
@@ -29,10 +32,10 @@ body{
     margin-top: 20px;
 }
 .information img{
-    width: 15vh;
-    height: 15vh;
+    width: 12vh;
+    height: 12vh;
     border-radius: 50%;
-    margin-top: 2vh;
+    margin-top: 1vh;
 }
 
 .information h1{
@@ -56,9 +59,10 @@ body{
 
 .stats{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
     margin-top: 2vh;
 }
 .stats a {
@@ -66,9 +70,11 @@ body{
     color: white;
 }
 .links{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40vh;
-    height: 6vh;
+    height: 7vh;
     text-align: center;
     background-color: hsl(0, 0%, 20%);
     color: white;
@@ -78,7 +84,9 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-
+.links i {
+    margin-right: 8px;
+}
 .links:hover{
     background-color: hsl(0, 0%, 30%);
 }
