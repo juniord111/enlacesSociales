@@ -73,6 +73,7 @@ body{
     background-color: hsl(0, 0%, 20%);
     color: white;
     border: none;
+    padding-top: 0.5vh;
     margin-bottom: 1.5vh;
     border-radius: 5px;
     cursor: pointer;
