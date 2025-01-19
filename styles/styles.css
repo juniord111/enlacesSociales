@@ -16,7 +16,7 @@ body{
 .container{
     background-color:hsl(0, 0%, 12%);
     width: 50vh;
-    height: 85vh;
+    height: 82vh;
     border-radius: 5%;
     flex-direction: column;
 }
